@@ -1,3 +1,4 @@
-describe('Protractor', function() {
+describe('Protractor', function () {
 
-  });
+
+});

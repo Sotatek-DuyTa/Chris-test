@@ -11,7 +11,7 @@
   </div>
   <div class="inner" #inner>
     <div class="content">
-      <img [src]="'assets/' + selectedScene.backgroundUrl" />
+      <img id="selectedScene" [src]="'assets/' + selectedScene.backgroundUrl" />
       <ng-container *ngIf="!(isLoading$ | async)">
         <ion-button
           color="dark"

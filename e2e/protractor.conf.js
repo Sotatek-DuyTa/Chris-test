@@ -15,6 +15,7 @@ exports.config = {
   },
   directConnect: true,
   baseUrl: "https://sotatek-duyta.github.io/Chris-test/home/",
+  seleniumAddress: 'http://localhost:4200/home',
   framework: "jasmine",
   jasmineNodeOpts: {
     showColors: true,
